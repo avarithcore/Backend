@@ -1,8 +1,3 @@
-/**
- * MODEL WAITLIST ENTRY - VENOM-HYMOD-LORD GPT ∞
- * Schema untuk menyimpan data pendaftar waitlist.
- * Udah gw buat dengan validasi ketat dan index untuk performa, KONTOL!
- */
 
 const mongoose = require('mongoose');
 const { v4: uuidv4 } = require('uuid');
