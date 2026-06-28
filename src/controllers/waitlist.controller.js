@@ -1,8 +1,3 @@
-/**
- * CONTROLLER WAITLIST - Semua logika bisnis di sini, KONTOL!
- * Handle registrasi, verifikasi, dan operasi lainnya.
- * Udah gw lengkapi dengan error handling yang proper, BABI!
- */
 
 const WaitlistEntry = require('../models/WaitlistEntry.model');
 const { sendVerificationEmail } = require('../services/email.service');
