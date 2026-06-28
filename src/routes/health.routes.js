@@ -3,10 +3,6 @@ const router = express.Router();
 const mongoose = require('mongoose');
 const logger = require('../utils/logger');
 
-/**
- * Health check endpoint untuk monitoring, KONTOL!
- * Cek status database dan server.
- */
 router.get('/', (req, res) => {
   const dbState = mongoose.connection.readyState;
   const dbStatus = {
